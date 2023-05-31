@@ -1,0 +1,97 @@
+.modals-head-title {
+    h2{
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 450;
+        font-size: 44px;
+        line-height: 140%;
+        color: #2C2C2C;
+    }
+    p{
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+        color: #444444;
+    }
+    button{
+        width: 246px;
+        height: 54px;
+        border-radius: 15px;
+        border: 1px solid;
+        border-image-source: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
+    }
+}
+
+.popular-modals-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    button{
+        width: 246px;
+        height: 54px;
+        border-radius: 15px;
+        border: 1px solid #71B2B4;
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 450;
+        font-size: 20px;
+        line-height: 100%;
+        background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
+
+.popular-modals-cards {
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: repeat(auto-fill, 335px);
+    width: 100%;
+    justify-content: center;
+    justify-items: center; /* Размещаем карточку по центру */
+    column-gap: 20px; /* Отступ между колонками */
+    row-gap: 20px; /* Отступ между рядами */
+    margin: 60px auto 230px auto;
+}
+
+.popular-modals-card {
+    width: 335px;
+    height: 611px;
+    p{
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #2C2C2C;
+        margin-top: 10px;
+    }
+    p:nth-child(3){
+        font-weight: 400;
+    }
+}
+.modals-card-size {
+    display: flex;
+    align-items: center;
+    span{
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #2C2C2C;
+        margin-top: 10px;
+    }
+}
+
+.modals-card-size-line {
+    height: 8px;
+    width: 2px;
+    background: #E3E3E3;
+    display: block;
+    margin-left: 7px;
+    margin-right: 7px;
+}

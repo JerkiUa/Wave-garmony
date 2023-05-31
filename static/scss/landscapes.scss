@@ -1,0 +1,58 @@
+.landscapes{
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    margin-bottom: 120px;
+}
+.landscapes-img {
+    background-image: url(/static/img/photo-layout.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1758px;
+    width: auto;
+}
+.landscapes-block-title {
+    max-width: 527px;
+    h2{
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 450;
+        font-size: 44px;
+        line-height: 140%;
+        color: #2C2C2C;
+    }
+    p{
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+        color: #444444;
+    }
+}
+
+.landscapes-block-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 60px;
+
+    button{
+        width: 270px;
+        height: 70px;
+        border-radius: 15px;
+        border: 1px solid #71b2b4;
+        font-family: "Futura PT";
+        font-style: normal;
+        font-weight: 450;
+        font-size: 20px;
+        line-height: 100%;
+        background: -webkit-gradient(linear, left top, right top, from(#21A5B5), to(#71B2B4));
+        background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(0,0,0,0);
+        margin-bottom: 10px;
+    }
+}

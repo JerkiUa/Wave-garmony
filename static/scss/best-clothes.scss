@@ -1,0 +1,75 @@
+.best-clothes {
+    margin-left: auto;
+    margin-right: auto;
+    background: #F8F8F8;
+    width: auto;
+    padding-top: 112px;
+}
+.best-clothes-head {
+    max-width: 650px;
+    h2{
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 450;
+        font-size: 44px;
+        line-height: 140%;
+        color: #2C2C2C;
+    }
+}
+.best-clothes-cards {
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: repeat(auto-fill, 290px);
+    max-width: 650px;
+    justify-content: center;
+    justify-items: center; /* Размещаем карточку по центру */
+    column-gap: 68px; /* Отступ между колонками */
+    row-gap: 90px; /* Отступ между рядами */
+    margin: 0 auto 230px auto;
+}
+
+.best-clothes-card {
+    width: 290px;
+    height: 83px;
+    h3{
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 650;
+        font-size: 20px;
+        line-height: 100%;
+        color: #2C2C2C;
+    }
+    p{
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        color: #2C2C2C;
+        margin-top: 13px;
+    }
+}
+
+.best-clothes-head-right {
+    max-width: 425px;
+    margin-left: 216px;
+    p{
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        color: #2C2C2C;
+    }
+}
+
+.best-clothes-block{
+    display: flex;
+    max-width: 425px;
+
+}
+
+.best-clothes-head-img {
+    margin-top: 64px;
+    margin-bottom: 70px;
+}
