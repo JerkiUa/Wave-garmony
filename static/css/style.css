@@ -1,0 +1,83 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body{
+    overflow-x: hidden ;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+
+}
+.burger-menu {
+    cursor: pointer !important;
+}
+a { 
+    color: inherit;
+    cursor:pointer; 
+} 
+
+a:hover {
+    color: inherit;
+    cursor:pointer;  
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+  text-decoration: none;
+}
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.hidden{
+    display: none;
+}
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+label, button {
+	cursor: pointer;
+}
